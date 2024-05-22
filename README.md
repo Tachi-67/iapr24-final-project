@@ -6,15 +6,33 @@ Zhibo Zhao (zhibo.zhao@epfl.ch) (350593)
 
 
 # Expected File Structure
-```
+```python
 .
-├─data
-│ ├─ref
-│ ├─test
-│ └─train
+│  .gitattributes
+│  .gitignore
+│  classify.ipynb # The main pipeline
+│  README.md
+│  requirements.txt
+│  result.csv # The Kaggle submission
+│  train.ipynb # The classifier training pipeline, NOT expected to rerun due to lack of training data in the repo.
+│
+├─data # Placeholder data folder. To generate test results, populate the test folder.
+│  ├─ref
+│  │      .gitkeep
+│  │
+│  ├─test
+│  │      .gitkeep
+│  │
+│  └─train
+│          .gitkeep
+│
 └─model
+        best_model.pth
+        label_to_index.json
 ```
+For reproducing the Kaggle result, run the `classify.ipynb` file.
 
+**Notice that** we were not able to upload the training data & the test data due to file size limits. To generate the Kaggle submission (or any other test predictions), you should populate the `data/test` folder with `.JPG` files.
 
 
 # Project Outline
