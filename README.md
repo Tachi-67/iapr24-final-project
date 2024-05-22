@@ -5,6 +5,10 @@ Haolong Li (haolong.li@epfl.ch) (352680)
 Zhibo Zhao (zhibo.zhao@epfl.ch) (350593)
 
 
+**Project presentation slides (private):**
+[Google Slides](https://docs.google.com/presentation/d/1kxMJbqidob9qSgez8DSIRGLMCH-XAGtPtUg_W2GR8ss/edit?usp=sharing)
+
+
 # Expected File Structure
 ```python
 .
